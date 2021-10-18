@@ -4,8 +4,8 @@ Analyzing Amazon reviews written by members of the paid Amazon Vine program, The
 
 ## Results:
 * Total number of Vine reviews were 613 and non-Vine reviews were 64,968.
-* Total 5 starts Vine reviews were 223 and non-Vine 5 stars reviews were 31,252.
-* Percentage of 5 stars Vine reviews was 36% and percentage of 5 stars non-Vine reviews was 44%.
+* Total 5 starts Vine reviews were 222 and non-Vine 5 stars reviews were 30,543.
+* Percentage of 5 stars Vine reviews was 36% and percentage of 5 stars non-Vine reviews was 47%.
 
 ## Summary: 
 As we can see from the above results, there is no positivity bias for reviews in the Vine program. The analysis result shows that percentage of vine members who give 5 star rating is lower than non-members percentage. An additional analysis to the dataset to support this statement is the following:
