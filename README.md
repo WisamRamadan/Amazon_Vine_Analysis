@@ -3,7 +3,7 @@
 Analyzing Amazon reviews written by members of the paid Amazon Vine program, The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products, using PySpark. Main tasks are to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin and determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
 ## Results:
-### ETL process findings:
+### ETL Process Findings:
 
 The dataset contained 9,002,021 reviews on wireless gadgets sold on Amazon. The dataset needed cleansing to enhance data integrity and conformity with pgAdmin database schema constraints. Here are the main steps performed:
 
@@ -13,13 +13,13 @@ The dataset contained 9,002,021 reviews on wireless gadgets sold on Amazon. The 
 
 All four transformed tables were successfully loaded into pgAdmin database.
 
-### Investigating bias toward favorable reviews from Vine members findings:
+### Investigating Bias Toward Favorable Reviews from Vine Members Findings:
 
 For this part, a subset of the dataset was filtered using two conditions:
 1. Products with total votes count equal to or greater than 20 to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on.
 2. Products with helpful votes percentage out of total votes is equal to or greater than 50%.
 
-#### Key Results
+#### Key Results:
 * Total number of Vine reviews were 613 and non-Vine reviews were 64,968.
 * Total 5 starts Vine reviews were 222 and non-Vine 5 stars reviews were 30,543.
 * Percentage of 5 stars Vine reviews was 36% and percentage of 5 stars non-Vine reviews was 47%.
